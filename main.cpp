@@ -3,7 +3,35 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    string cadena;
+    getline(cin, cadena);
+
+    if (cadena == "int")
+    {
+        cout<< sizeof(int);
+    }
+    else if (cadena == "char")
+    {
+        cout<< sizeof(char);
+    }
+    else if (cadena == "short")
+    {
+        cout<< sizeof(short);
+    }
+    else if (cadena == "float")
+    {
+        cout<< sizeof(float);
+    }
+    else if (cadena == "long")
+    {
+        cout<< sizeof(long);
+    }
+    else if (cadena == "double")
+    {
+        cout<< sizeof(double);
+    }
+
+    
 
     return 0;
 }
